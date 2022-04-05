@@ -1,0 +1,16 @@
+"Session ID","Question Reference","Question Type",Score,"Max Score"
+a9c92dc1-725c-456a-acc9-cdd32fd9f81b,LEAR_22241596_1,association,0,1
+a9c92dc1-725c-456a-acc9-cdd32fd9f81b,00000000-0000-4000-0000-000000129905,mcq,0,1
+a9c92dc1-725c-456a-acc9-cdd32fd9f81b,73048d2b-77fd-4cfd-ae8c-8210eddf2cdc,orderlist,5,5
+a9c92dc1-725c-456a-acc9-cdd32fd9f81b,Demo5,formulaV2,1,1
+a9c92dc1-725c-456a-acc9-cdd32fd9f81b,154b433e-1223-41e4-b17a-3fbf03c23dc2,longtextV2,,
+ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0,73048d2b-77fd-4cfd-ae8c-8210eddf2cdc,orderlist,5,5
+ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0,00000000-0000-4000-0000-000000129905,mcq,0,1
+ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0,Demo6,numberline,1,1
+ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0,ca34f0a3-d7bf-4bb0-8774-b31a8c378773,tokenhighlight,3,3
+ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0,Demo8,mcq,1,1
+ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0,Demo9_duplicate,clozedropdown,6,6
+ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0,01963_1,formulaV2,0,1
+ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0,Demo10,graphplotting,0,1
+ee5ed0c3-f590-40d0-8480-8037914738ba,0f720f65-621b-4d7d-9f54-a60d7fa6ca5a,association,0,1
+ee5ed0c3-f590-40d0-8480-8037914738ba,ddcbc4a5-9943-4bfb-84a2-e500271fe502,clozeformula,1,1

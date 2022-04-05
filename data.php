@@ -8,41 +8,67 @@ use LearnositySdk\Request\DataApi;
 * https://reference.learnosity.com/data-api/endpoints
 **/
 
-/***** Notes on an issue I ran into ****/
-
-// After entering my request JSON inside of the $request varibale in downloadSessions (see below)
-// I kept getting an error which appears to be originating in the LearnositySDK (although I might be wrong about this)
-//  you can see the full error with the stack trace in "errormessage.txt" enclosed here
-
-
-// I made WAS able to successfully make the request to the enpoint "/sessions/responses" 
-// API request DATA API demos at https://demos.learnosity.com/analytics/data/index.php with the
-// 4 session_ids provided in the test
-// I have copied the response JSON that came back to a file enclosed here
-// However, since I cannot see what the php array looks like that will come back from makeDataAPICall()
-// called by downloadSessions, it's difficult for me to proceed and approach writing the processSessions function logic
-
-// I have also commented extensively below inside of both of these functions to document my understaning of what they are doing
-
-/**** *****/
-
-
 
 
 function processSessions() 
 {
     $sessions = downloadSessions();
 
-    print_r($sessions);
+    // initilize the table as a two dimensional array where first nested array is table head
+    $table = array (
+        array ("Session ID", "Question Reference", "Question Type", "Score", "Max Score")
+      );
+      
+      // loop over the sessions data and drill down to the 3nd level (session => list of questions => each question data)
+      // 3 loops, 2 nested
+      foreach($sessions as $questionsList) {
+          //access the session id for each list fo questions and save to a variable called $session_id 
+            $session_id = $questionsList["session_id"]; 
+        foreach($questionsList as $question) {
+            // drill down by ignoring items in the outer array that are not themselves arrays
+           if(is_array($question)) {
+                // drill down by ignoring items in the outer array that are not themselves arrays
+                foreach($question as $data) {
+                    if(is_array($data)) {
+                        // push the requested data items to be persisted into the table as a "row" in the form of an array
+                            array_push($table,
+                            array(
+                            // get session id from first level
+                            $session_id,
+                            // get data info for each question underneath that session id from
+                            // the question data array (3rd level)
+                            $data["question_reference"],
+                            $data["question_type"],
+                            $data["score"],
+                            $data["max_score"] 
+                            )
+                        );
+                    }
+                }
+           }
+        }
+      }
+  
+      // filter the table so that only complete rows are shown
+      // not the session reapeating where the rest of the row is empty
+      $table = array_filter(
+        $table,
+        function ($row) {
+          // if the entry after session id is empty, it is a "redundant" row, so exclude it from the filter
+          return !empty($row[1]);
+        }
+      );
 
-    // this part was difficult for me to attempt without being able to really 
-    // see what the php array that comes back from makeDataCall() looks like
-    // (see explanation above)
-
-    ////
-    // To do: Add code to process the sessions and save to CSV,
-    // feel free to add more functions if needed.
-    //
+      // re-index the filterd table
+      $table = array_values($table);
+      // open a wrtiable file called results.csv
+      $fp = fopen('results.csv', 'w');
+      // write the table to the file as a csv table
+      foreach ($table as $fields) {
+          fputcsv($fp, $fields);
+      }
+      // close the file
+      fclose($fp);
 
 }
 
