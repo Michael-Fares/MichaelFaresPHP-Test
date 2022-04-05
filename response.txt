@@ -1,0 +1,977 @@
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [reference] => 3302000b-ad46-402d-a88b-b229280ec861
+                            [source] => Array
+                                (
+                                    [reference] => Demo4
+                                    [organisation_id] => 6
+                                )
+
+                            [time] => 3
+                            [response_ids] => Array
+                                (
+                                    [0] => a9c92dc1-725c-456a-acc9-cdd32fd9f81b_8bcb0e3b63a2678739464b3fcac09c30
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [metadata] => Array
+                                (
+                                    [scoring_type] => per-question
+                                )
+
+                            [scoring] => Array
+                                (
+                                    [score] => 0
+                                    [max_score] => 1
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 1
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [reference] => 61ad5da0-9aee-468b-877a-f18bdaf9deda
+                            [source] => Array
+                                (
+                                    [reference] => Demo3
+                                    [organisation_id] => 6
+                                )
+
+                            [time] => 7
+                            [response_ids] => Array
+                                (
+                                    [0] => a9c92dc1-725c-456a-acc9-cdd32fd9f81b_478d62858b659a1d7709a2ad4da95689
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [metadata] => Array
+                                (
+                                    [scoring_type] => per-question
+                                )
+
+                            [scoring] => Array
+                                (
+                                    [score] => 5
+                                    [max_score] => 5
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 5
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [reference] => 7dc52150-c27e-4369-adf0-19ad01a0ab74
+                            [source] => Array
+                                (
+                                    [reference] => Demo5
+                                    [organisation_id] => 6
+                                )
+
+                            [time] => 37
+                            [response_ids] => Array
+                                (
+                                    [0] => a9c92dc1-725c-456a-acc9-cdd32fd9f81b_4e9d619858037d90466380be86ed98d0
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [metadata] => Array
+                                (
+                                    [scoring_type] => per-question
+                                )
+
+                            [scoring] => Array
+                                (
+                                    [score] => 1
+                                    [max_score] => 1
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 1
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [reference] => LEAR_Essay_Demo
+                            [source] => Array
+                                (
+                                    [reference] => LEAR_Essay_Demo
+                                    [organisation_id] => 6
+                                )
+
+                            [time] => 39
+                            [response_ids] => Array
+                                (
+                                    [0] => a9c92dc1-725c-456a-acc9-cdd32fd9f81b_941779bb440a30420bf827b717ccb634
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [scoring] => Array
+                                (
+                                    [score] =>
+                                    [max_score] =>
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 0
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] => 1
+                                )
+
+                        )
+
+                )
+
+            [metadata] => Array
+                (
+                    [activity_template_id] => demo-activity-1
+                    [items_api_version] => v1.113.1
+                    [max_time] => 0
+                    [user_agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0
+                )
+
+        )
+
+    [1] => Array
+        (
+            [user_id] => $ANONYMIZED_USER_ID
+            [activity_id] => itemsassessdemo
+            [num_attempted] => 8
+            [num_questions] => 8
+            [session_id] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0
+            [score] => 16
+            [max_score] => 19
+            [subscores] =>
+            [session_duration] => 3
+            [status] => Completed
+            [dt_saved] => 2022-03-18T13:30:13Z
+            [dt_started] => 2022-03-18T13:27:43Z
+            [dt_completed] => 2022-03-18T13:30:13Z
+            [responses] => Array
+                (
+                    [0] => Array
+                        (
+                            [response_id] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_8a3ad01125e7d3150006464bc8aac20e
+                            [question_type] => orderlist
+                            [dt_score_updated] => 2022-03-18T13:30:10Z
+                            [automarkable] => 1
+                            [attempted] => 1
+                            [score] => 5
+                            [max_score] => 5
+                            [question_reference] => 73048d2b-77fd-4cfd-ae8c-8210eddf2cdc
+                            [item_reference] => Demo3
+                            [response] => Array
+                                (
+                                    [value] => Array
+                                        (
+                                            [0] => 4
+                                            [1] => 0
+                                            [2] => 2
+                                            [3] => 1
+                                            [4] => 3
+                                        )
+
+                                    [type] => array
+                                    [apiVersion] => v2.181.0
+                                    [revision] => 1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [response_id] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_8442f6b3ecd158e223e86f32aa46bab3
+                            [question_type] => mcq
+                            [dt_score_updated] => 2022-03-18T13:30:10Z
+                            [automarkable] => 1
+                            [attempted] => 1
+                            [score] => 0
+                            [max_score] => 1
+                            [question_reference] => 00000000-0000-4000-0000-000000129905
+                            [item_reference] => Demo4
+                            [response] => Array
+                                (
+                                    [value] => Array
+                                        (
+                                            [0] => 1
+                                        )
+
+                                    [type] => array
+                                    [apiVersion] => v2.181.0
+                                    [revision] => 1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [response_id] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_e3a6b7be736b7da95116164af9bd43e2
+                            [question_type] => numberline
+                            [dt_score_updated] => 2022-03-18T13:30:10Z
+                            [automarkable] => 1
+                            [attempted] => 1
+                            [score] => 1
+                            [max_score] => 1
+                            [question_reference] => Demo6
+                            [item_reference] => Demo6
+                            [response] => Array
+                                (
+                                    [value] => Array
+                                        (
+                                            [5/5] => Array
+                                                (
+                                                    [x] => 1
+                                                    [y] => 7
+                                                )
+
+                                            [1/4] => Array
+                                                (
+                                                    [x] => 0.25
+                                                    [y] => 7
+                                                )
+
+                                            [4/2] => Array
+                                                (
+                                                    [x] => 2
+                                                    [y] => 7
+                                                )
+
+                                            [7/2] => Array
+                                                (
+                                                    [x] => 3.5
+                                                    [y] => 7
+                                                )
+
+                                        )
+
+                                    [type] => object
+                                    [apiVersion] => v2.181.0
+                                    [revision] => 1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [response_id] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_0413892bf32ef1bfd6cbe13ea415c4cf
+                            [question_type] => tokenhighlight
+                            [dt_score_updated] => 2022-03-18T13:30:10Z
+                            [automarkable] => 1
+                            [attempted] => 1
+                            [score] => 3
+                            [max_score] => 3
+                            [question_reference] => ca34f0a3-d7bf-4bb0-8774-b31a8c378773
+                            [item_reference] => Demo7
+                            [response] => Array
+                                (
+                                    [value] => Array
+                                        (
+                                            [0] => 1
+                                            [1] => 2
+                                            [2] => 5
+                                        )
+
+                                    [type] => array
+                                    [apiVersion] => v2.181.0
+                                    [revision] => 1
+                                    [feedbackAttemptsCount] => 1
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [response_id] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_8b4c2bc8dfee72492eeae1087cfa445b
+                            [question_type] => mcq
+                            [dt_score_updated] => 2022-03-18T13:30:10Z
+                            [automarkable] => 1
+                            [attempted] => 1
+                            [score] => 1
+                            [max_score] => 1
+                            [question_reference] => Demo8
+                            [item_reference] => Demo8
+                            [response] => Array
+                                (
+                                    [value] => Array
+                                        (
+                                            [0] => 1
+                                        )
+
+                                    [type] => array
+                                    [apiVersion] => v2.181.0
+                                    [revision] => 1
+                                )
+
+                        )
+
+                    [5] => Array
+                        (
+                            [response_id] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_27130b57f0b3a5960154eaff23b2289d
+                            [question_type] => clozedropdown
+                            [dt_score_updated] => 2022-03-18T13:30:10Z
+                            [automarkable] => 1
+                            [attempted] => 1
+                            [score] => 6
+                            [max_score] => 6
+                            [question_reference] => Demo9_duplicate
+                            [item_reference] => Demo9
+                            [response] => Array
+                                (
+                                    [value] => Array
+                                        (
+                                            [0] => whispered
+                                            [1] => Holmes
+                                            [2] => intruder
+                                            [3] => rending
+                                            [4] => hunting crop
+                                            [5] => clinked
+                                        )
+
+                                    [type] => array
+                                    [apiVersion] => v2.181.0
+                                    [revision] => 1
+                                    [feedbackAttemptsCount] => 2
+                                )
+
+                        )
+
+                    [6] => Array
+                        (
+                            [response_id] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_28d566fc6cdabf0b40b43ca18f641bc0
+                            [question_type] => formulaV2
+                            [dt_score_updated] => 2022-03-18T13:30:10Z
+                            [automarkable] => 1
+                            [attempted] => 1
+                            [score] => 0
+                            [max_score] => 1
+                            [question_reference] => 01963_1
+                            [item_reference] => Demo10
+                            [response] => Array
+                                (
+                                    [value] => 23\text{ square feet}
+                                    [type] => string
+                                    [responses] => Array
+                                        (
+                                            [0] => 23
+                                        )
+
+                                    [apiVersion] => v2.181.0
+                                    [revision] => 1
+                                )
+
+                        )
+
+                    [7] => Array
+                        (
+                            [response_id] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_c8d4d91937875781a55f24eec153eb05
+                            [question_type] => graphplotting
+                            [dt_score_updated] => 2022-03-18T13:30:10Z
+                            [automarkable] => 1
+                            [attempted] => 1
+                            [score] => 0
+                            [max_score] => 1
+                            [question_reference] => Demo10
+                            [item_reference] => Demo10
+                            [response] => Array
+                                (
+                                    [value] => Array
+                                        (
+                                            [actions] => Array
+                                                (
+                                                    [0] => point(7,6) << id: 'lrn_1', snaptogrid: true, snapsizex: 1, snapsizey: 1 >>;
+                                                    [1] => point(4,3) << id: 'lrn_2', snaptogrid: true, snapsizex: 1, snapsizey: 1 >>;
+                                                )
+
+                                            [undo] => Array
+                                                (
+                                                    [0] => remove(lrn_1);
+                                                    [1] => remove(lrn_2);
+                                                )
+
+                                            [composition] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => lrn_1
+                                                            [type] => point
+                                                            [coords] => Array
+                                                                (
+                                                                    [x] => 7
+                                                                    [y] => 6
+                                                                )
+
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [id] => lrn_2
+                                                            [type] => point
+                                                            [coords] => Array
+                                                                (
+                                                                    [x] => 4
+                                                                    [y] => 3
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [type] => object
+                                    [apiVersion] => v2.181.0
+                                    [revision] => 1
+                                )
+
+                        )
+
+                )
+
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [reference] => Demo3
+                            [source] => Array
+                                (
+                                    [reference] => Demo3
+                                    [organisation_id] => 6
+                                )
+
+                            [time] => 7
+                            [response_ids] => Array
+                                (
+                                    [0] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_8a3ad01125e7d3150006464bc8aac20e
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [metadata] => Array
+                                (
+                                    [scoring_type] => per-question
+                                )
+
+                            [scoring] => Array
+                                (
+                                    [score] => 5
+                                    [max_score] => 5
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 5
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [reference] => Demo4
+                            [source] => Array
+                                (
+                                    [reference] => Demo4
+                                    [organisation_id] => 6
+                                )
+
+                            [time] => 3
+                            [response_ids] => Array
+                                (
+                                    [0] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_8442f6b3ecd158e223e86f32aa46bab3
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [metadata] => Array
+                                (
+                                    [scoring_type] => per-question
+                                )
+
+                            [scoring] => Array
+                                (
+                                    [score] => 0
+                                    [max_score] => 1
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 1
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [reference] => Demo6
+                            [source] => Array
+                                (
+                                    [reference] => Demo6
+                                    [organisation_id] => 6
+                                )
+
+                            [time] => 18
+                            [response_ids] => Array
+                                (
+                                    [0] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_e3a6b7be736b7da95116164af9bd43e2
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [scoring] => Array
+                                (
+                                    [score] => 1
+                                    [max_score] => 1
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 1
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [reference] => Demo7
+                            [source] => Array
+                                (
+                                    [reference] => Demo7
+                                    [organisation_id] => 6
+                                )
+
+                            [time] => 22
+                            [response_ids] => Array
+                                (
+                                    [0] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_0413892bf32ef1bfd6cbe13ea415c4cf
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [metadata] => Array
+                                (
+                                    [scoring_type] => per-question
+                                )
+
+                            [scoring] => Array
+                                (
+                                    [score] => 3
+                                    [max_score] => 3
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 3
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [reference] => Demo8
+                            [source] => Array
+                                (
+                                    [reference] => Demo8
+                                    [organisation_id] => 6
+                                )
+
+                            [time] => 3
+                            [response_ids] => Array
+                                (
+                                    [0] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_8b4c2bc8dfee72492eeae1087cfa445b
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [scoring] => Array
+                                (
+                                    [score] => 1
+                                    [max_score] => 1
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 1
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                    [5] => Array
+                        (
+                            [reference] => Demo9
+                            [source] => Array
+                                (
+                                    [reference] => Demo9
+                                    [organisation_id] => 6
+                                )
+
+                            [time] => 60
+                            [response_ids] => Array
+                                (
+                                    [0] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_27130b57f0b3a5960154eaff23b2289d
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [metadata] => Array
+                                (
+                                    [scoring_type] => per-question
+                                )
+
+                            [scoring] => Array
+                                (
+                                    [score] => 6
+                                    [max_score] => 6
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 6
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                    [6] => Array
+                        (
+                            [reference] => Demo10
+                            [source] => Array
+                                (
+                                    [reference] => Demo10
+                                    [organisation_id] => 6
+                                )
+
+                            [time] => 11
+                            [response_ids] => Array
+                                (
+                                    [0] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_28d566fc6cdabf0b40b43ca18f641bc0
+                                    [1] => ecc0bdb2-2fc9-4489-b2d6-b818a8b0ebc0_c8d4d91937875781a55f24eec153eb05
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [scoring] => Array
+                                (
+                                    [score] => 0
+                                    [max_score] => 2
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 2
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                )
+
+            [metadata] => Array
+                (
+                    [items_api_version] => v1.113.1
+                    [max_time] => 0
+                    [user_agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0
+                )
+
+        )
+
+    [2] => Array
+        (
+            [user_id] => $ANONYMIZED_USER_ID
+            [activity_id] => tryagaindemo
+            [num_attempted] => 2
+            [num_questions] => 2
+            [session_id] => ee5ed0c3-f590-40d0-8480-8037914738ba
+            [score] => 1
+            [max_score] => 2
+            [subscores] =>
+            [session_duration] => 1
+            [status] => Completed
+            [dt_saved] => 2022-03-18T13:50:14Z
+            [dt_started] => 2022-03-18T13:49:37Z
+            [dt_completed] => 2022-03-18T13:50:14Z
+            [responses] => Array
+                (
+                    [0] => Array
+                        (
+                            [response_id] => ee5ed0c3-f590-40d0-8480-8037914738ba_b840893a70cd4ac41b438144048fc533
+                            [question_type] => association
+                            [dt_score_updated] => 2022-03-18T13:50:16Z
+                            [automarkable] => 1
+                            [attempted] => 1
+                            [score] => 0
+                            [max_score] => 1
+                            [question_reference] => 0f720f65-621b-4d7d-9f54-a60d7fa6ca5a
+                            [item_reference] => Space Demo Item 4 - New
+                            [response] => Array
+                                (
+                                    [value] => Array
+                                        (
+                                            [0] => 60
+                                            [1] => 1
+                                            [2] => 0
+                                        )
+
+                                    [type] => array
+                                    [updatedFormat] => 1
+                                    [apiVersion] => v2.181.0
+                                    [revision] => 1
+                                    [dynamic] => Array
+                                        (
+                                            [id] => 9a70e6d6-ff34-4db9-97ce-fa892b0b002b
+                                            [attempts] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 9a70e6d6-ff34-4db9-97ce-fa892b0b002b
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 60
+                                                                    [1] => 1
+                                                                    [2] => 0
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [response_id] => ee5ed0c3-f590-40d0-8480-8037914738ba_e3f868c1dfb9f579c23c0467d6f0e382
+                            [question_type] => clozeformula
+                            [dt_score_updated] => 2022-03-18T13:50:16Z
+                            [automarkable] => 1
+                            [attempted] => 1
+                            [score] => 1
+                            [max_score] => 1
+                            [question_reference] => ddcbc4a5-9943-4bfb-84a2-e500271fe502
+                            [item_reference] => Try_Again_math_test
+                            [response] => Array
+                                (
+                                    [value] => Array
+                                        (
+                                            [0] => 7\times4=28
+                                        )
+
+                                    [responses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [0] => 28
+                                                )
+
+                                        )
+
+                                    [type] => array
+                                    [apiVersion] => v2.181.0
+                                    [revision] => 1
+                                    [dynamic] => Array
+                                        (
+                                            [id] => 3e79142b-182a-4b10-9ae2-075ea1d6ceff
+                                            [attempts] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 3e79142b-182a-4b10-9ae2-075ea1d6ceff
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 7\times4=28
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [reference] => Space Demo Item 4 - New
+                            [source] => Array
+                                (
+                                    [reference] => Space Demo Item 4 - New
+                                    [organisation_id] => 6
+                                    [data_table_seed] => ee5ed0c3-f590-40d0-8480-8037914738ba_Space Demo Item 4 - New
+                                    [try_again] => Array
+                                        (
+                                            [max_attempts] => 5
+                                            [random] => 1
+                                        )
+
+                                )
+
+                            [time] => 10
+                            [response_ids] => Array
+                                (
+                                    [0] => ee5ed0c3-f590-40d0-8480-8037914738ba_b840893a70cd4ac41b438144048fc533
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [metadata] => Array
+                                (
+                                    [scoring_type] => per-question
+                                )
+
+                            [scoring] => Array
+                                (
+                                    [score] => 0
+                                    [max_score] => 1
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 1
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [reference] => Try_Again_math_test
+                            [source] => Array
+                                (
+                                    [reference] => Try_Again_math_test
+                                    [organisation_id] => 6
+                                    [data_table_seed] => ee5ed0c3-f590-40d0-8480-8037914738ba_Try_Again_math_test
+                                    [try_again] => Array
+                                        (
+                                            [max_attempts] => 5
+                                            [random] => 1
+                                        )
+
+                                )
+
+                            [time] => 19
+                            [response_ids] => Array
+                                (
+                                    [0] => ee5ed0c3-f590-40d0-8480-8037914738ba_e3f868c1dfb9f579c23c0467d6f0e382
+                                )
+
+                            [user_flagged] =>
+                            [attempt_status] => fully_attempted
+                            [metadata] => Array
+                                (
+                                    [scoring_type] => per-question
+                                )
+
+                            [scoring] => Array
+                                (
+                                    [score] => 1
+                                    [max_score] => 1
+                                    [type] => per-question
+                                    [max_score_of_attempted] => 1
+                                    [max_score_of_unmarked] => 0
+                                    [meta] => Array
+                                        (
+                                            [scoring_version_used] => v2.182.0
+                                        )
+
+                                    [attempted] => 1
+                                    [unmarked] =>
+                                )
+
+                        )
+
+                )
+
+            [metadata] => Array
+                (
+                    [items_api_version] => v1.113.1
+                    [max_time] => 0
+                    [user_agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0
+                )
+
+        )
